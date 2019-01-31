@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1301174122</title>
+    </head>
+	<body>
+
+		<h1>Jurnal Modul 1</h1>
+		<form action="index2.html" method="Post">
+		<table>
+			<tr>
+				<td>Nama Lengkap</td>
+				<td>:</td>
+				<td><input type="text" name="nama_input" placeholder="Input nama" value="Nama Anda" readonly/> </td>
+			</tr>
+
+				<tr>
+				<td>Nama Panggilan</td>
+				<td>:</td>
+				<td><input type="text" name="nama_panggilan" placeholder="Input nama" value="Nama Anda" disabled/> </td>
+			</tr>
+
+			</tr>
+
+				<tr>
+				<td>Username</td>
+				<td>:</td>
+				<td><input type="text" name="Username" placeholder="Input nama" value="Username" > </td>
+			</tr>
+
+			</tr>
+
+				<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td><input type="email" name="email_input" placeholder="Input Email" value="Email" > </td>
+			</tr>
+			</tr>
+
+				<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="Password" name="Password_input" placeholder="Input Password" value="Password" > </td>
+			</tr>
+
+			<tr>
+				<td>Jenis Kelamin </td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="jk_input" class="radioB" id="radioB" value="Pria">Pria</input>
+				</td>
+				<td>
+					<input type="radio" name="jk_input" class="radioB" id="radioB" value="Wanita">Wanita</input>
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Hobi</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="hobi_input" class="checkbox"id="checkB" value="tidur">tidur</input><br/>
+
+					<input type="checkbox" name="hobi_input" class="checkbox"id="checkB" value="Makan">Makan</input><br/>
+					
+					<input type="checkbox" name="hobi_input" class="checkbox"id="checkB" value="Olahraga">Olahraga</input><br/>
+
+					<input type="checkbox" name="hobi_input" class="checkbox"id="checkB" value="Belajar">Belajar</input><br/>
+					
+					
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Pendidikan Terakhir</td>
+				<td>:</td>
+				<td>
+					<select name="jp_input" class="dropdown" id="jp_id"> 
+						<option value="" selected="">---PILIH---</option>
+						<option value="D3">Tamat D3</option>
+						<option value="S1">Tamat S1</option>
+						<option value="S2">Tamat S2</option>
+						<option value="S3">Tamat S3</option>
+					</select>
+				</td>
+				<TD></TD>
+			</tr>
+
+			<tr>
+				<td>Jurusan</td>
+				<td>:</td>
+				<td>
+					<select multiple="" name="jp_input" class="dropdown" id="jp_id"> 
+						<option value="" selected="">---PILIH JURUSAN---</option>
+						<option value="ELEKTRO">ELEKTRO</option>
+						<option value="INFORMATIKA">INFORMATIKA</option>
+						<option value="TELEKOMUNIKASI">TELEKOMUNIKASI</option>
+						<option value="MBTI">MBTI</option>
+					</select>
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Upload Foto</td>
+				<td>:</td>
+				<td>
+					<input type="file" name="file">
+				</td>
+			</tr>
+
+			<tr>
+				<td> ALAMAT </td>
+				<td>:</td>
+				<td>
+					<textarea rows="5" cols="40%"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td >
+					<input type="SUBMIT" name="SUBMIT"> </input>
+				</td>
+			</tr>
+
+
+
+
+		</table>
+	
+    
+	</form>
+	</body>
+</html>
